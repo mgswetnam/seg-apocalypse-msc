@@ -1,0 +1,54 @@
+html{
+  body{
+    &.wp-admin{
+      .seg-module{
+        background-color: rgba(0,0,0,0.03);
+        &:before{
+          content: "SEG Module";
+          color: rgba(0,0,0,0.05);
+          text-transform: uppercase;
+          font-weight: 700;
+          padding: 0px 10px;
+        }
+        .seg-item{
+          background-color: rgba(0,0,0,0.03);
+          &:before{
+            content: "SEG Item";
+            color: #ffffff;
+            text-transform: uppercase;
+            font-weight: 700;
+            padding: 0px 10px;
+          }
+        }
+      }
+    }
+    .wp-block{
+      &.wp-block-group{
+        padding-top:5px;
+        padding-bottom:5px;
+      }
+    }
+    .seg-admin{
+      &.seg-featured-link{
+        padding:5px;
+        margin:5px 0px 5px 0px;
+        border:1px solid #000000;
+        .seg-remove-link,.seg-up-link,.seg-down-link{
+          padding: 0px 5px;
+          cursor: pointer;
+        }
+      }
+      &.button-bar{
+        width: 100%;
+        margin:5px 0px 5px 0px;
+        .seg-featured-links{
+          &.form-button{
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}

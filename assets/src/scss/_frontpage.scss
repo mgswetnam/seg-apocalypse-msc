@@ -1,0 +1,14 @@
+html{
+  body{
+    &.home{
+      .seg-container{
+        .seg-content{
+          .seg-module{
+            &.seg-jumbotron{}
+          }
+        }
+      }
+    }
+  }
+  &.no-webp{}
+}

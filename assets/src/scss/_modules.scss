@@ -1,0 +1,205 @@
+html{
+  body{
+    &.page,&.post-template,&.blog,&.archive,&.category,&.tag,&.single,&.post-type-archive-offer,&.search,&.error404{
+      .seg-container{
+        .seg-content{
+          .seg-module{
+            max-width: 100%;
+            width: 100%;
+            padding: 50px 0px 40px;
+            .wp-block-group{
+              padding:0px 0px 0px 0px;
+            }
+            h2{
+              &.underscore{
+                &:after{
+                  content: "";
+                  display: block;
+                  width: 100px;
+                  height: 2px;
+                  background: $black_75;
+                  margin: 15px auto 40px;
+                }
+                &.reverse{
+                  &:after{
+                    background: $white;
+                  }
+                }
+              }
+            }
+            &.seg-standard{
+              >div{
+                padding: 10px 15px 20px;
+                display: block;
+                max-width: $main_width;
+                margin: 0 auto;
+              }
+            }
+            &.seg-newsflow{
+              padding: 10px 15px 20px;
+              display: block;
+              max-width: $main_width;
+              margin: 0 auto;
+              .newsflow-heading{}
+              .newsflow-content{
+                column-count: 1;
+                column-gap: 40px;
+                &.two-col{
+                  @media screen and (min-width: 768px){
+                    column-count: 2;
+                  }
+                }
+                &.three-col{
+                  @media screen and (min-width: 600px){
+                    column-count: 2;
+                  }
+                  @media screen and (min-width: 992px){
+                    column-count: 3;
+                  }
+                }
+                &.four-col{
+                  @media screen and (min-width: 600px){
+                    column-count: 2;
+                  }
+                  @media screen and (min-width: 992px){
+                    column-count: 3;
+                  }
+                  @media screen and (min-width: 1200px){
+                    column-count: 4;
+                  }
+                }
+                >div{
+                  >h1,>h2,>h3,>h4,>h5,>h6{
+                    break-after: avoid;
+                  }
+                  >p{
+                    margin-bottom: 10px;
+                  }
+                }
+              }
+            }
+            &.seg-cta{
+              padding: 0;
+              overflow: hidden;
+              margin: 0px 0px 40px;
+              background: $black;
+              color: $white;
+              a{
+                color: $white;
+              }
+              >div{
+                position: relative;
+                width: 100%;
+                height: 100%;
+              }
+              figure{
+                &.cta-image-background{
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  margin-bottom: 0px;
+                  z-index: 0;
+                  >img{
+                    object-fit: cover;
+                    object-position: top;
+                    width: 100%;
+                    height: 100%;
+                    filter: brightness(0.5);
+                  }
+                  &.ctab-pos-center{
+                    >img{
+                      object-position: center;
+                    }
+                  }
+                  &.ctab-pos-bottom{
+                    >img{
+                      object-position: bottom;
+                    }
+                  }
+                }
+              }
+              .cta-header{}
+              .cta-content{
+                position: relative;
+                max-width: 1200px;
+                width: 100%;
+                padding: 60px 15px;
+                margin: 0 auto;
+                z-index: 1;
+                h1,h2,h3,h4,h5,h6{
+                  &.ctac-heading{
+                    color: $white;
+                    font-weight: 700;
+                    text-shadow: 0px 0px 2px $black;
+                    margin-bottom: 20px;
+                    text-align: center;
+                  }
+                }
+                p{
+                  &.ctac-text{
+                    color: $white;
+                    text-shadow: 0px 0px 2px $black;
+                    margin-bottom: 20px;
+                    text-align: center;
+                    a{
+                      color: $white;
+                      text-decoration: underline;
+                    }
+                  }
+                }
+              }
+            }
+            &.seg-bkg-blue,&.seg-bkg-green{
+              color: $white;
+              h1,h2,h3,h4,h5,h6{
+                color:$white;
+              }
+              a{
+                color: $white;
+              }
+            }
+            &.seg-bkg-ltgray{
+              background-color: $gray_25;
+            }
+            &.seg-full-width{
+              max-width: 100%;
+              padding: 0;
+              overflow: hidden;
+              margin: 0px 0px 40px;
+              >div{
+                position: relative;
+                max-width: $main_width;
+                margin: 0 auto;
+                padding: 10px 15px 20px;
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .seg-img-fade{
+              >img,>figure>img{
+                filter: opacity(0.5) grayscale(1);
+              }
+            }
+            &.seg-module-last,&.seg-module-clip{
+              margin-bottom: 0px !important;
+            }
+            &.seg-module-bump{
+              margin-bottom: 40px;
+            }
+            &.seg-module-doublebump{
+              margin-bottom: 80px;
+            }
+            &.seg-hide-it,.seg-hide-it{
+              display: none !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.no-webp{
+
+  }
+}

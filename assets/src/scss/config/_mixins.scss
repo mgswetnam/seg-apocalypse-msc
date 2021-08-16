@@ -1,0 +1,37 @@
+/* CSS Horizontal Centering */
+@mixin hcenter {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* CSS Vertical Centering */
+@mixin vcenter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* CSS Horizontal & Vertical Centering */
+@mixin hvcenter {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@mixin os {
+  font-family: $os;
+  font-weight: 700;
+}
+@mixin po {
+  font-family: $po;
+  font-weight: 400;
+}
+@mixin fa {
+  font-family: $fa;
+  font-weight: 600;
+}

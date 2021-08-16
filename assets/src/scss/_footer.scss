@@ -1,0 +1,25 @@
+html{
+  body{
+    footer{
+      div{
+        &.widget_custom_html{
+          /*.seg-social-icons-wrapper{
+            a{
+              font-size: 24px;
+              text-decoration:none;
+              .seg-icon-bg{
+                color: $white;
+              }
+              .seg-icon-item{
+                color:$blue;
+              }
+            }
+          }*/
+        }
+      }
+    }
+  }
+  &.no-webp{
+
+  }
+}
