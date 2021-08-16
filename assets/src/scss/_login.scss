@@ -2,11 +2,11 @@ html{
   body{
     &.login{
       /*background: url('../images/powered-by-cs-blk-rvs-20190911.png') bottom right no-repeat;*/
-      background: $blue;
+      background: $green;
       background-image: url('../images/powered-by-cs-blk-rvs-20190911.png') bottom right no-repeat;
-      background: url('../images/powered-by-cs-blk-rvs-20190911.png') bottom right no-repeat, -moz-linear-gradient(top,  $blue 0%, $blue_hi 30%, $white 70%, $white 100% );
-      background: url('../images/powered-by-cs-blk-rvs-20190911.png') bottom right no-repeat, -webkit-linear-gradient(top,  $blue 0%, $blue_hi 30%, $white 70%, $white 100% ); /* Chrome10-25,Safari5.1-6 */
-      background: url('../images/powered-by-cs-blk-rvs-20190911.png') bottom right no-repeat, linear-gradient(to top,  $blue 0%, $blue_hi 30%, $white 70%, $white 100% ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      background: url('../images/powered-by-cs-blk-rvs-20190911.png') bottom right no-repeat, -moz-linear-gradient(top,  $green 0%, $green_hi 30%, $white 70%, $white 100% );
+      background: url('../images/powered-by-cs-blk-rvs-20190911.png') bottom right no-repeat, -webkit-linear-gradient(top,  $green 0%, $green_hi 30%, $white 70%, $white 100% ); /* Chrome10-25,Safari5.1-6 */
+      background: url('../images/powered-by-cs-blk-rvs-20190911.png') bottom right no-repeat, linear-gradient(to top,  $green 0%, $green_hi 30%, $white 70%, $white 100% ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
       h1{
         a{
           background-image: url('../images/logo-color-small.webp');

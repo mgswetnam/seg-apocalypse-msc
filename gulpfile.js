@@ -4,7 +4,7 @@ var gulp = require( 'gulp' ),
   pump = require( 'pump' ),
   babelify = require( 'babelify' ),
   browserify = require( 'browserify' ),
-  sass = require('gulp-sass'),
+  sass = require( 'gulp-sass' )( require( 'sass' ) ),
   $ = require( 'gulp-load-plugins' )(),
   browserSync = require( 'browser-sync' ).create();
 
